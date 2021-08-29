@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.js": "/R-PathfindingAlgorithmsVisualizer/static/js/main.e6ace45b.chunk.js",
-    "main.js.map": "/R-PathfindingAlgorithmsVisualizer/static/js/main.e6ace45b.chunk.js.map",
+    "main.css": "/R-PathfindingAlgorithmsVisualizer/static/css/main.e4417902.chunk.css",
+    "main.js": "/R-PathfindingAlgorithmsVisualizer/static/js/main.f8c970a7.chunk.js",
+    "main.js.map": "/R-PathfindingAlgorithmsVisualizer/static/js/main.f8c970a7.chunk.js.map",
     "runtime-main.js": "/R-PathfindingAlgorithmsVisualizer/static/js/runtime-main.12b6496a.js",
     "runtime-main.js.map": "/R-PathfindingAlgorithmsVisualizer/static/js/runtime-main.12b6496a.js.map",
-    "static/js/2.e23fb5df.chunk.js": "/R-PathfindingAlgorithmsVisualizer/static/js/2.e23fb5df.chunk.js",
-    "static/js/2.e23fb5df.chunk.js.map": "/R-PathfindingAlgorithmsVisualizer/static/js/2.e23fb5df.chunk.js.map",
+    "static/js/2.fdde9efa.chunk.js": "/R-PathfindingAlgorithmsVisualizer/static/js/2.fdde9efa.chunk.js",
+    "static/js/2.fdde9efa.chunk.js.map": "/R-PathfindingAlgorithmsVisualizer/static/js/2.fdde9efa.chunk.js.map",
     "index.html": "/R-PathfindingAlgorithmsVisualizer/index.html",
-    "static/js/2.e23fb5df.chunk.js.LICENSE.txt": "/R-PathfindingAlgorithmsVisualizer/static/js/2.e23fb5df.chunk.js.LICENSE.txt"
+    "static/css/main.e4417902.chunk.css.map": "/R-PathfindingAlgorithmsVisualizer/static/css/main.e4417902.chunk.css.map",
+    "static/js/2.fdde9efa.chunk.js.LICENSE.txt": "/R-PathfindingAlgorithmsVisualizer/static/js/2.fdde9efa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.12b6496a.js",
-    "static/js/2.e23fb5df.chunk.js",
-    "static/js/main.e6ace45b.chunk.js"
+    "static/js/2.fdde9efa.chunk.js",
+    "static/css/main.e4417902.chunk.css",
+    "static/js/main.f8c970a7.chunk.js"
   ]
 }
