@@ -2,11 +2,10 @@
 import React from 'react';
 
 // COMPONENTS IMPORTS //
-import {Grid} from 'Components';
+import {Navbar, Infobar, Grid} from 'Components';
 
 // EXTRA IMPORTS //
 import {memoComparison} from 'Helpers/Functions';
-import Navbar from 'Components/Navbar';
 
 /////////////////////////////////////////////////////////////////////////////
 
@@ -16,6 +15,7 @@ const App: React.FC<PropsType> = () => {
   return (
     <div>
       <Navbar />
+      <Infobar />
       <Grid />
     </div>
   );
