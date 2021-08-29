@@ -1,7 +1,22 @@
+// PLUGINS IMPORTS //
 import React from 'react';
 
-function App() {
-  return <div></div>;
-}
+// COMPONENTS IMPORTS //
+import {Grid} from 'Components';
 
-export default App;
+// EXTRA IMPORTS //
+import {memoComparison} from 'Helpers/Functions';
+
+/////////////////////////////////////////////////////////////////////////////
+
+type PropsType = {};
+
+const App: React.FC<PropsType> = () => {
+  return (
+    <div>
+      <Grid />
+    </div>
+  );
+};
+
+export default React.memo(App, memoComparison);
