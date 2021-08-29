@@ -18,71 +18,74 @@ const Navbar: React.FC<PropsType> = props => {
       <nav className="navbar navbar-inverse">
         <div className="container-fluid">
           <div className="navbar-header">
-            <a id="refreshButton" className="navbar-brand" href="#">
+            <a
+              id="refreshButton"
+              className="navbar-brand"
+              href="www.google.com">
               Pathfinding Visualizer
             </a>
           </div>
           <ul className="nav navbar-nav">
             <li className="dropdown">
-              <a className="dropdown-toggle" data-toggle="dropdown" href="#">
+              <a className="dropdown-toggle" data-toggle="dropdown" href="x">
                 Algorithms
                 <span className="caret"></span>
               </a>
               <ul className="dropdown-menu">
                 <li id="startButtonDijkstra">
-                  <a href="#">Dijkstra's Algorithm</a>
+                  <a href="x">Dijkstra's Algorithm</a>
                 </li>
                 <li id="startButtonAStar2">
-                  <a href="#">A* Search</a>
+                  <a href="x">A* Search</a>
                 </li>
                 <li id="startButtonGreedy">
-                  <a href="#">Greedy Best-first Search</a>
+                  <a href="x">Greedy Best-first Search</a>
                 </li>
                 <li id="startButtonAStar">
-                  <a href="#">Swarm Algorithm</a>
+                  <a href="x">Swarm Algorithm</a>
                 </li>
                 <li id="startButtonAStar3">
-                  <a href="#">Convergent Swarm Algorithm</a>
+                  <a href="x">Convergent Swarm Algorithm</a>
                 </li>
                 <li id="startButtonBidirectional">
-                  <a href="#">Bidirectional Swarm Algorithm</a>
+                  <a href="x">Bidirectional Swarm Algorithm</a>
                 </li>
                 <li id="startButtonBFS">
-                  <a href="#">Breadth-first Search</a>
+                  <a href="x">Breadth-first Search</a>
                 </li>
                 <li id="startButtonDFS">
-                  <a href="#">Depth-first Search</a>
+                  <a href="x">Depth-first Search</a>
                 </li>
               </ul>
             </li>
             <li className="dropdown">
-              <a className="dropdown-toggle" data-toggle="dropdown" href="#">
+              <a className="dropdown-toggle" data-toggle="dropdown" href="x">
                 Mazes &amp; Patterns
                 <span className="caret"></span>
               </a>
               <ul className="dropdown-menu">
                 <li id="startButtonCreateMazeTwo">
-                  <a href="#">Recursive Division</a>
+                  <a href="x">Recursive Division</a>
                 </li>
                 <li id="startButtonCreateMazeThree">
-                  <a href="#">Recursive Division (vertical skew)</a>
+                  <a href="x">Recursive Division (vertical skew)</a>
                 </li>
                 <li id="startButtonCreateMazeFour">
-                  <a href="#">Recursive Division (horizontal skew)</a>
+                  <a href="x">Recursive Division (horizontal skew)</a>
                 </li>
                 <li id="startButtonCreateMazeOne">
-                  <a href="#">Basic Random Maze</a>
+                  <a href="x">Basic Random Maze</a>
                 </li>
                 <li id="startButtonCreateMazeWeights">
-                  <a href="#">Basic Weight Maze</a>
+                  <a href="x">Basic Weight Maze</a>
                 </li>
                 <li id="startStairDemonstration">
-                  <a href="#">Simple Stair Pattern</a>
+                  <a href="x">Simple Stair Pattern</a>
                 </li>
               </ul>
             </li>
             <li id="startButtonAddObject">
-              <a href="#">Add Bomb</a>
+              <a href="x">Add Bomb</a>
             </li>
             <li id="startButtonStart">
               <button
@@ -93,32 +96,32 @@ const Navbar: React.FC<PropsType> = props => {
               </button>
             </li>
             <li id="startButtonClearBoard">
-              <a href="#">Clear Board</a>
+              <a href="x">Clear Board</a>
             </li>
             <li id="startButtonClearWalls">
-              <a href="#">Clear Walls &amp; Weights</a>
+              <a href="x">Clear Walls &amp; Weights</a>
             </li>
             <li id="startButtonClearPath">
-              <a href="#">Clear Path</a>
+              <a href="x">Clear Path</a>
             </li>
             <li className="dropdown">
               <a
                 id="adjustSpeed"
                 className="dropdown-toggle"
                 data-toggle="dropdown"
-                href="#">
+                href="x">
                 Speed: Fast
                 <span className="caret"></span>
               </a>
               <ul className="dropdown-menu">
                 <li id="adjustFast">
-                  <a href="#">Fast</a>
+                  <a href="x">Fast</a>
                 </li>
                 <li id="adjustAverage">
-                  <a href="#">Average</a>
+                  <a href="x">Average</a>
                 </li>
                 <li id="adjustSlow">
-                  <a href="#">Slow</a>
+                  <a href="x">Slow</a>
                 </li>
               </ul>
             </li>
