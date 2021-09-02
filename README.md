@@ -53,8 +53,6 @@ This setting adjusts the animation speed of the app.
 There are three settings: "Slow", "Average", and "Fast."
 The default setting is "Fast."
 
-<br/>
-
 ## Made Using
 
 - [React](https://github.com/facebook/react)
