@@ -4,8 +4,6 @@
 <p align="center"> This project is live visualiztion of the famous path finding algorithms. </p>
 <br/>
 
-![Gif](https://github.com/GunjanKadu/PathFindingVisualizer/blob/master/gif/demo.gif)
-
 <h2 align="center">Algorithms Included</h2>
 <li>* Dijkstra algorithm</li>
 <li>* Bellman-Ford algorithm</li>
