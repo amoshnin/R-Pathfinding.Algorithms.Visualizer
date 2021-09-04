@@ -1,16 +1,54 @@
 <h1 align="center">Path Finding Visualizer</h1>
 
 <p align="center">Live at - https://artem711.github.io/R-Pathfinding.Algorithms.Visualizer/ </p>
-<p align="center"> This project is live visualiztion of the famous path finding algorithms. </p>
+<p align="center"> This project is live visualiztion of the famous path finding algorithms. Built using TypeScript, React. </p>
 <br/>
 
 <h2 align="center">Algorithms Included</h2>
-<li>* Dijkstra algorithm</li>
-<li>* Bellman-Ford algorithm</li>
-<li>* Depth-first search (DFS) algorithm</li>
-<li>* Breadth-first search (BFS) algorithm</li>
+<li>* A\* Search</li>
+<li>* Depth-First Search</li>
+<li>* Breadth-First Search</li>
+<li>* Greedy Best-First Search</li>
 
 <h2 align="center">Features</h2>
+
+## Concepts
+
+Each grid item represents a node in a implicit graph.
+
+- Each triangle is adjacent to other 3 triangles.
+- Each square is adjacent to other 4 squares.
+
+## Features
+
+- [x] 2D grid types
+
+  - [x] Triangle Grid
+  - [x] Square Grid
+  - [ ] Hexagon Grid
+
+- [x] Search algorithms
+
+  - [x] A\* Search
+  - [x] Depth-First Search
+  - [x] Breadth-First Search
+  - [x] Greedy Best-First Search
+  - [ ] Dijktra's Algorithm
+  - [ ] xxx
+
+- [x] Pattern generation algorithms
+
+  - [x] Perfect mazes (Recursive backtracking)
+  - [x] Basic random
+
+- [x] View, pause or continue the visualization
+- [x] Immediate response to delay change during visualization
+- [x] Draw your own wall nodes with mouse
+- [x] Persist form inputs on local storage
+- [ ] Drag and drop the source and target nodes
+- [ ] Folding animation on changing the node state
+
+## Usage instructions
 
 ### Selecting an Algorithm and Running the Visualizer
 
@@ -40,12 +78,9 @@ You must use the "Clear Board" option to eliminate walls.
 
 ### Generating Mazes
 
-Random walls and recursive division are the two maze algorithms currently in use.
+Perfect mazes (recursive backtracking) and basic random are the two maze algorithms currently in use.
 For each node, the random walls technique generates a random number in the range [0, 1].
 The node is turned into a wall based on this number.
-With one exception, the recursive division algorithm is similar to the basic [recursive division algorithm](https://en.wikipedia.org/wiki/Maze_generation_algorithm#Recursive_division_method) .
-The difference is that instead of constructing a single passage in each wall, we generate numerous passages here.
-Instead of a single path between the start and finish nodes, many paths might be used.
 
 ### Changing Speed
 
@@ -53,21 +88,26 @@ This setting adjusts the animation speed of the app.
 There are three settings: "Slow", "Average", and "Fast."
 The default setting is "Fast."
 
-## Made Using
-
-- [React](https://github.com/facebook/react)
-- [TypeScript](https://github.com/microsoft/TypeScript) - Strongly Typed No JS
-- [CSS Animations] - Animation Effect
-
 <br>
 
-## Build Guide
+## Installation guide
+
+In the root directory, you can run:
 
 ```bash
-git clone https://github.com/Artem711/R-Pathfinding.Algorithms.Visualizer
-cd Pathfinding-Visualizer
-yarn install
-yarn start
-```
+# To install all dependencies of the project.
+> yarn install
+> npm install
 
-<br>
+# To run the app on http://localhost:3000.
+> yarn start
+> npm run start
+
+# To run the unit tests
+> yarn test:unit
+> npm run test:unit
+
+# To build the bundled app for production on the `build` folder.
+> yarn build
+> npm run build
+```

@@ -1,0 +1,35 @@
+// TODO: dark blur background? https://css-tricks.com/almanac/properties/b/backdrop-filter/ https://v5.getbootstrap.com/docs/5.0/components/tooltips/
+
+*[data-tooltip] {
+  position: relative;
+  --tooltip-scale: 0;
+
+  // main box
+  &::before {
+    content: attr(data-tooltip);
+    background-color: black;
+    z-index: 99;
+
+    color: white;
+    padding: 0.4em 0.5em;
+    border-radius: 0.5em;
+    text-align: center;
+    font-size: 13px; // FIXME: hardcode
+
+    position: absolute;
+    top: 115%;
+    left: 50%;
+
+    width: max-content;
+    max-width: 150px;
+
+    // como se o ponto ancora da box fosse agora o ponto inferior central
+    transform: translate(-50%) scale(var(--tooltip-scale));
+    transform-origin: top center;
+    transition: 100ms transform ease-out;
+  }
+
+  &:hover {
+    --tooltip-scale: 1;
+  }
+}

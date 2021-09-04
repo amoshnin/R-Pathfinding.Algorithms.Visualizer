@@ -1,0 +1,54 @@
+// TODO: https://css-tricks.com/transforms-on-svg-elements/
+
+.node {
+  stroke-width: 1;
+  stroke: rgba(195, 195, 195, 0.2);
+
+  transition: fill 50ms ease-in-out 0s;
+
+  transform-box: fill-box;
+  transform-origin: center;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.node-unvisited {
+  fill: var(--color-unvisited);
+}
+.node-visited {
+  fill: var(--color-visited);
+  // unvisited -> visited
+  animation-name: scale-up;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+}
+.node-solution {
+  fill: var(--color-solution);
+  // visited -> solution
+  transition: 0.1s ease-in-out 0s;
+}
+.node-wall {
+  fill: var(--color-wall);
+}
+.node-source {
+  fill: var(--color-source);
+  cursor: grab; // TODO: mudar para grabbing enquanto estiver clicado
+}
+.node-target {
+  fill: var(--color-target);
+  cursor: grab; // TODO: mudar para grabbing enquanto estiver clicado
+}
+
+@keyframes scale-up {
+  0% {
+    fill: var(--color-solution);
+  }
+  5% {
+    fill: var(--color-solution);
+  }
+  20% {
+    fill: var(--color-intermediate);
+  }
+}

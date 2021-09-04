@@ -1,12 +1,15 @@
 // PLUGINS IMPORTS //
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 // COMPONENTS IMPORTS //
-import App from 'components/app';
 
 // EXTRA IMPORTS //
 
+// TYPE IMPORTS //
+import {Action} from 'components/types';
+
 /////////////////////////////////////////////////////////////////////////////
 
-ReactDOM.render(<App />, document.getElementById('root'));
+export const DispatchContext = React.createContext<{
+  dispatch: React.Dispatch<Action>;
+}>({dispatch: () => {}});
