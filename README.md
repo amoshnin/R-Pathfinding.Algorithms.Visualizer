@@ -5,10 +5,10 @@
 <br/>
 
 <h2 align="center">Algorithms Included</h2>
-<li>* A\* Search</li>
-<li>* Depth-First Search</li>
-<li>* Breadth-First Search</li>
-<li>* Greedy Best-First Search</li>
+<li>A\* Search</li>
+<li>Depth-First Search</li>
+<li>Breadth-First Search</li>
+<li>Greedy Best-First Search</li>
 
 <h2 align="center">Features</h2>
 
