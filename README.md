@@ -1,8 +1,8 @@
 <h1 align="center">Path Finding Visualizer</h1>
 
-<p align="center">Live at - https://artem711.github.io/R-Pathfinding.Algorithms.Visualizer/ </p>
-<p align="center"> This project is live visualiztion of the famous path finding algorithms. Built using TypeScript, React. </p>
-<p align="center">Inspiration is taken from (Clement Mihailescu) (https://github.com/clementmihailescu)</p>
+Live at - [Link](https://artem711.github.io/R-Pathfinding.Algorithms.Visualizer/)
+This project is live visualiztion of the famous path finding algorithms. Built using TypeScript, React.
+Inspiration is taken from [Clement Mihailescu](https://github.com/clementmihailescu)
 <br/>
 
 <h2 align="center">Algorithms Included</h2>
